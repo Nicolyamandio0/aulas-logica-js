@@ -1,0 +1,16 @@
+//const valor01 = 50
+//const valor02 = 20
+
+// && => operador de conjunção
+// || => Operador de disjunção 
+// ! => negação
+
+//console.log(`${valor01>20 ||valor02>=30}`)
+
+const temCarteira = true 
+const nome = "juliano"
+const idade = 10
+
+const resultadoTeste = idade >= 18 && temCarteira
+
+console.log(` ${ resultadoTeste ? "o candidato pode dirigir " : "o candidato não pode dirigir"}` )

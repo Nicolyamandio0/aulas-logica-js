@@ -1,0 +1,18 @@
+const avaliacaoDaMedia = (nota)=>{
+    if(nota>7){
+        console.log("aprovado")
+    } else {
+        console.log("reprovado")
+    }
+}
+
+
+function avaliacaoDaMedia(nota){
+    if(nota>7){
+        console.log("aprovado")
+    } else {
+        console.log("reprovado")
+    }
+}
+
+avaliacaoDaMedia(8)
